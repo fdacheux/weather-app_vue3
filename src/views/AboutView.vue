@@ -2,6 +2,6 @@
 
 <template>
   <main>
-    <p>about</p>
+    <h1 class="my-5">A vue 3 project</h1>
   </main>
 </template>

@@ -4,7 +4,9 @@ import WeatherItem from "../components/WeatherComp/WeatherItem.vue";
 
 <template>
   <main>
-    <h1 class="display-5">Hey Sun ! - A sunny weather app</h1>
-    <WeatherItem />
+    <h1 class="display-5 my-5">Hey Sun ! - A sunny weather app</h1>
+    <Suspense>
+      <WeatherItem />
+    </Suspense>
   </main>
 </template>
