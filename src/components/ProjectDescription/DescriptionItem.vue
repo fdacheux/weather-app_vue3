@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="card mx-5 p-4 about-content">
+  <div class="card mx-5 py-4 about-content">
     <h2 class="text-center">
       A project from Udemy course : Vue.js de A à Z (Version 2) by Enzo Ustariz
     </h2>

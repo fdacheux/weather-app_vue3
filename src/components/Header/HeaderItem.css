@@ -1,6 +1,6 @@
 .header-item {
   position: fixed;
-  height: 120px;
+  height: 80px;
   width: 100%;
   background-color: rgb(35, 34, 44);
   display: flex;
@@ -10,7 +10,7 @@
 }
 
 .logo {
-  height: 80px;
+  height: 60px;
   border-radius: 20px;
 }
 
@@ -27,7 +27,14 @@
 .router-link-active {
   color: rgb(89, 82, 122);
 }
-
+@media screen and (min-width: 768px) {
+  .header-item {
+    height: 120px;
+  }
+  .logo {
+    height: 80px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .header-item {
     padding-right: 80px;
