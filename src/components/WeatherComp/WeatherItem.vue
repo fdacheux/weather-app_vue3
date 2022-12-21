@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { getWeather } from "@/stores/getWeather";
 import { ref } from "vue";
 const request = ref({
   cityName: "",
@@ -6,8 +7,7 @@ const request = ref({
 const goWeather = () => {
   console.log("This is fine");
 };
-const weather = undefined;
-const api_key = import.meta.env.API_KEY;
+const weather = getWeather(request.value.cityName);
 </script>
 
 <template>
