@@ -1,0 +1,25 @@
+.about-content {
+  max-width: 1200px;
+  align-self: center;
+  background-color: rgba(35, 34, 44, 0.425);
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.171);
+  color: rgb(35, 34, 44);
+}
+
+h2 {
+  font-weight: 700;
+  color: rgb(44, 42, 61);
+}
+
+h3 {
+  font-weight: 700;
+  color: rgb(44, 42, 61);
+}
+
+li {
+  list-style-type: none;
+  margin-top: 15px;
+  padding-left: 30px;
+  font-size: 20px;
+}
