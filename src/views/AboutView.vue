@@ -4,7 +4,7 @@ import DescriptionItem from "../components/ProjectDescription/DescriptionItem.vu
 
 <template>
   <main>
-    <h1 class="my-5">A vue 3 project</h1>
+    <h1 class="my-5 display-4">A vue 3 project</h1>
     <DescriptionItem />
   </main>
 </template>
