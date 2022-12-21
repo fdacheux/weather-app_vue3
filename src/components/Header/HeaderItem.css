@@ -1,0 +1,35 @@
+.header-item {
+  position: fixed;
+  height: 120px;
+  width: 100%;
+  background-color: rgb(35, 34, 44);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 33333;
+}
+
+.logo {
+  height: 80px;
+  border-radius: 20px;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-link {
+  color: rgb(243, 241, 233);
+  font-size: 18px;
+}
+
+.nav-link:hover,
+.router-link-active {
+  color: rgb(89, 82, 122);
+}
+
+@media screen and (min-width: 1200px) {
+  .header-item {
+    padding-right: 80px;
+  }
+}
