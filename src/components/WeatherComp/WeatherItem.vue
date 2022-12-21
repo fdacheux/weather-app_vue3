@@ -6,6 +6,8 @@ const request = ref({
 const goWeather = () => {
   console.log("This is fine");
 };
+const weather = undefined;
+const api_key = import.meta.env.API_KEY;
 </script>
 
 <template>

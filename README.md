@@ -66,3 +66,13 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
+
+### OpenWeatherMap API ###
+
+This project is using an api called OpenWeather. 
+To use this app, an API key is needed. You can create a free account :
+
+    -> go to https://home.openweathermap.org/ and create an account
+    -> when signed in, go to Api keys : generate or copy the default key 
+    -> create a .env file, add API-KEY = "" 
+    -> paste your key between the double quotation marks

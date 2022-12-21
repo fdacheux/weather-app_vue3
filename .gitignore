@@ -30,3 +30,6 @@ coverage
 # devDependencies 
 commitlint.config.cjs
 .husky
+
+#environment variables
+.env
