@@ -1,0 +1,42 @@
+label {
+  font-size: 18px;
+  color: #084298;
+  text-decoration: dotted;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.171);
+  border: none;
+  padding: 40px 20px;
+}
+
+.weather-icon {
+  height: 120px;
+  margin-right: 70px;
+}
+
+.wrapper {
+  width: fit-content;
+}
+
+.text-display {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: rgb(84, 93, 104);
+  text-align: left;
+}
+
+
+@media screen and (min-width: 1200px){
+  .card{
+    justify-content: center;
+    padding: 50px;
+  }
+  .weather-icon{
+    padding-right: 40px;
+  }
+}

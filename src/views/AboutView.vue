@@ -1,15 +1,10 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
+<script setup lang="ts">
+import DescriptionItem from "../components/ProjectDescription/DescriptionItem.vue";
+</script>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<template>
+  <main>
+    <h1 class="my-5 display-4">A vue 3 project</h1>
+    <DescriptionItem />
+  </main>
+</template>
