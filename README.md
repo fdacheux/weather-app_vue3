@@ -76,3 +76,5 @@ To use this app, an API key is needed. You can create a free account :
     -> when signed in, go to Api keys : generate or copy the default key 
     -> create a .env file, add API-KEY = "" 
     -> paste your key between the double quotation marks
+
+### Test ###
