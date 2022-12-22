@@ -33,3 +33,6 @@ commitlint.config.cjs
 
 #environment variables
 .env
+
+# deployment 
+firebaseConfig.js
