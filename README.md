@@ -77,4 +77,3 @@ To use this app, an API key is needed. You can create a free account :
     -> create a .env file, add API-KEY = "" 
     -> paste your key between the double quotation marks
 
-### Test ###

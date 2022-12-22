@@ -2,9 +2,11 @@
 
 <template>
   <footer>
-    <div>
+    <div class="wrapper">
       More of my projects on :
-      <a href="https://github.com/fdacheux">my github !</a>
+      <a href="https://github.com/fdacheux"
+        ><font-awesome-icon icon="fa-brands fa-github"
+      /></a>
     </div>
   </footer>
 </template>

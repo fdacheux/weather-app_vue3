@@ -10,6 +10,20 @@ footer {
   font-size: 16px;
 }
 
+.wrapper{
+  display: flex;
+  align-items: center;
+}
+
 a {
   color: rgb(111, 168, 214);
+}
+
+a:hover{
+  color: rgb(89, 82, 122);
+}
+
+.fa-github {
+  height: 30px;
+  margin-left: 20px;
 }
