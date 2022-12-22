@@ -29,6 +29,7 @@ jobs:
       - run: npm run lint
       - run: npm run build --if-present
         env:
+          VITE_BASE: ${{ secrets.VITE_BASE }}
           VITE_API_KEY: ${{ secrets.VITE_API_KEY }}
           VITE_FIREBASE_KEY: ${{ secrets.VITE_FIREBASE_KEY }}
 
