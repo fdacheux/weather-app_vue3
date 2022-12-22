@@ -28,6 +28,9 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run build --if-present
+        env:
+          VITE_API_KEY: ${{ secrets.VITE_API_KEY }}
+          VITE_FIREBASE_KEY: ${{ secrets.VITE_FIREBASE_KEY }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
