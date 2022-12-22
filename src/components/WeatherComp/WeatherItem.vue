@@ -10,6 +10,13 @@ const goWeather = async () => {
   weather = await getWeather(request.value.cityName);
   request.value.cityName = "";
 };
+
+const imgUrlCreator = (): string => {
+  if (weather) {
+    return `http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`;
+  }
+  return "";
+};
 </script>
 
 <template>
@@ -29,7 +36,8 @@ const goWeather = async () => {
     </div>
     <div class="w-75 m-auto" v-if="weather">
       <h3 class="text-center mb-4">Location : {{ weather.name }}</h3>
-      <div class="card text-center p-5">
+      <div class="card text-center">
+        <img :src="imgUrlCreator()" alt="weather icon" class="weather-icon" />
         <div class="wrapper">
           <p class="text-display">
             Temperature : {{ weather.main.temp.toFixed() }}°C
