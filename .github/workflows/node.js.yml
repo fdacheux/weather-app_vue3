@@ -29,7 +29,7 @@ jobs:
       - run: npm run lint
       - run: npm run build --if-present
 
-      - name: Deploy to GH Pages 🚀
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          publish_dir: public
+          folder: dist 
