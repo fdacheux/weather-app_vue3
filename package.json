@@ -2,6 +2,7 @@
   "name": "weather_app",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://fdacheux.github.io/weather-app_vue3/",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -13,7 +14,8 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "prepare": "husky install",
-    "scriptname": "cmd"
+    "scriptname": "cmd",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
@@ -38,6 +40,7 @@
     "eslint": "^8.22.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-vue": "^9.3.0",
+    "gh-pages": "^4.0.0",
     "husky": "^8.0.2",
     "inquirer": "^8.2.5",
     "jsdom": "^20.0.3",
