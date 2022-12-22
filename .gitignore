@@ -36,3 +36,4 @@ commitlint.config.cjs
 
 # deployment 
 firebaseConfig.js
+.firebase/hosting.ZGlzdA.cache
