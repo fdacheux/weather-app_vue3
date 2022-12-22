@@ -1048,4 +1048,4 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */$i(F1,H1,"app");const j1={apiKey:"AIzaSyDqinfqB5R0y82SDZvx2QFVg2J-nr2cu14",authDomain:"hey-sun.firebaseapp.com",projectId:"hey-sun",storageBucket:"hey-sun.appspot.com",messagingSenderId:"265450221581",appId:"1:265450221581:web:e8e0f84b91b0eafbb12544"};I1(j1);Z0.add(gA);const Ko=Im(Ug);Ko.use(_v);Ko.component("font-awesome-icon",mA);Ko.mount("#app");
+ */$i(F1,H1,"app");const j1={}.VITE_FIREBASE_KEY,V1={apiKey:j1,authDomain:"hey-sun.firebaseapp.com",projectId:"hey-sun",storageBucket:"hey-sun.appspot.com",messagingSenderId:"265450221581",appId:"1:265450221581:web:e8e0f84b91b0eafbb12544"};I1(V1);Z0.add(gA);const Ko=Im(Ug);Ko.use(_v);Ko.component("font-awesome-icon",mA);Ko.mount("#app");
