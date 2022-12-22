@@ -1,5 +1,7 @@
+const apiKey = import.meta.env.VITE_FIREBASE_KEY;
+
 export const firebaseConfig: any = {
-  apiKey: "AIzaSyDqinfqB5R0y82SDZvx2QFVg2J-nr2cu14",
+  apiKey: apiKey,
   authDomain: "hey-sun.firebaseapp.com",
   projectId: "hey-sun",
   storageBucket: "hey-sun.appspot.com",
