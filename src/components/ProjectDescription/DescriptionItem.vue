@@ -20,7 +20,7 @@
       <li>
         <h3>Description :</h3>
         <p>
-          Using Vue3, creation of a weather app calling an Api (OpenWeather). I
+          Using Vue3, I created a weather app calling an Api (OpenWeather). I
           decided to use the composition API, and more especially the script tag
           with setup API, finding it much light to use and easier to pair with
           typescript.
