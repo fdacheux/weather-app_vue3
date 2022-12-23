@@ -32,8 +32,9 @@ jobs:
           VITE_BASE: ${{ secrets.VITE_BASE }}
           VITE_API_KEY: ${{ secrets.VITE_API_KEY }}
           VITE_FIREBASE_KEY: ${{ secrets.VITE_FIREBASE_KEY }}
-
+      - run: |
+          cp ./dist/index.html ./dist/404.html
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist 
+          folder: dist
