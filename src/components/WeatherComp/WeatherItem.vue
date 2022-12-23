@@ -34,7 +34,7 @@ const imgUrlCreator = (): string => {
         @keypress.enter="goWeather"
       />
     </div>
-    <div class="w-75 m-auto" v-if="weather">
+    <div class="weather-container" v-if="weather">
       <h3 class="text-center mb-4">Location : {{ weather.name }}</h3>
       <div class="card text-center">
         <img :src="imgUrlCreator()" alt="weather icon" class="weather-icon" />

@@ -1,0 +1,77 @@
+main {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+picture {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-height: 450px;
+  max-width: 90%;
+  border-radius: 50%;
+}
+
+.rotating-element {
+  animation: 4s slightRotation ease-in-out infinite;
+}
+
+a {
+  color: #23222c;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(89, 82, 122);
+}
+
+@keyframes slightRotation {
+  from {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(7deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    padding-top: 170px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  main {
+    padding-top: 130px;
+  }
+  img {
+    max-height: 400px;
+  }
+}
+
+@media  screen and (max-width: 576px) {
+    main{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
