@@ -14,6 +14,7 @@ const weather: Ref<weatherModel | undefined> = ref(undefined);
 const searchError: Ref<boolean | undefined> = ref(undefined);
 const loading: Ref<boolean | undefined> = ref(undefined);
 const goWeather = async () => {
+  weather.value = undefined;
   loading.value = true;
   try {
     searchError.value = false;
