@@ -7,9 +7,13 @@ export const getWeather = async (cityName: string): Promise<weatherModel> => {
     const response = await fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${api_key}`
     );
-    const state = await response.json();
-    console.log(state);
-    return state;
+    if (response.ok) {
+      const state = await response.json();
+      console.log(state);
+      return state;
+    } else {
+      throw new Error();
+    }
   } catch (error) {
     console.log(error);
     throw new Error("Cannot reach api");
