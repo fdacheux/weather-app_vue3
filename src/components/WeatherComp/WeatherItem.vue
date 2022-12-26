@@ -9,7 +9,7 @@ import cityNotFoundWebp from "../../assets/city_not_found_illustration.webp";
 const request = ref({
   cityName: "",
 });
-const validInput = /^(?=.*?[A-Za-zÀ-ÖØ-öø-ÿ ])[A-Za-zÀ-ÖØ-öø-ÿ ]+$/;
+const validInput = /^(?=.*?[A-Za-zÀ-ÖØ-öø-ÿ -])[A-Za-zÀ-ÖØ-öø-ÿ -]+$/;
 const weather: Ref<weatherModel | undefined> = ref(undefined);
 const searchError: Ref<boolean | undefined> = ref(undefined);
 const loading: Ref<boolean | undefined> = ref(undefined);
@@ -30,7 +30,7 @@ const goWeather = async () => {
 
 const imgUrlCreator = (): string => {
   if (weather.value) {
-    return `http://openweathermap.org/img/wn/${weather.value.weather[0].icon}@2x.png`;
+    return `https://openweathermap.org/img/wn/${weather.value.weather[0].icon}@2x.png`;
   }
   return "";
 };
