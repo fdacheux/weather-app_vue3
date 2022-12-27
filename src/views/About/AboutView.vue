@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import DescriptionItem from "../components/ProjectDescription/DescriptionItem.vue";
+import DescriptionItem from "../../components/ProjectDescription/DescriptionItem.vue";
 </script>
 
 <template>
@@ -8,3 +8,5 @@ import DescriptionItem from "../components/ProjectDescription/DescriptionItem.vu
     <DescriptionItem />
   </main>
 </template>
+
+<style scoped src="./AboutView.css"></style>

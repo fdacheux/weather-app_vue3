@@ -18,6 +18,11 @@ h3 {
   color: rgb(44, 42, 61);
 }
 
+.project-list{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 li {
   list-style-type: none;
   margin-top: 15px;

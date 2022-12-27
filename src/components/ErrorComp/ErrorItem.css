@@ -1,0 +1,24 @@
+.error-container {
+  display: flex;
+  justify-content: center;
+}
+
+.notFound-icon {
+  height: 200px;
+}
+
+@media screen and (min-width: 1200px) {
+  .notFound-icon {
+    min-height: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card.error {
+    flex-direction: column;
+  }
+
+  .notFound-icon {
+    height: 300px;
+  }
+}

@@ -4,7 +4,7 @@
     <h2 class="text-center">
       A project from Udemy course : Vue.js de A à Z (Version 2) by Enzo Ustariz
     </h2>
-    <ul class="mt-3">
+    <ul class="mt-3 project-list">
       <li>
         <h3>Tech Stack :</h3>
         <p>Vue3, typescript, VueRouter, Bootsrap 5</p>
