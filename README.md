@@ -77,3 +77,11 @@ To use this app, an API key is needed. You can create a free account :
     -> create a .env file, add API-KEY = "" 
     -> paste your key between the double quotation marks
 
+## Fonts ##
+
+Te favicon was generated using the following font:
+
+- Font Title: Satisfy
+- Font Author: Copyright (c) 2011 by Font Diner, Inc. All rights reserved.
+- Font Source: http://fonts.gstatic.com/s/satisfy/v17/rP2Hp2yn6lkG50LoOZSCHBeHFl0.ttf
+- Font License: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.html))
