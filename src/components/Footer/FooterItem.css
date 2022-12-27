@@ -16,12 +16,13 @@ footer {
 }
 
 a {
-  color: rgb(111, 168, 214);
+  color: rgb(111, 168, 214) !important;
 }
 
 a:hover{
   color: rgb(89, 82, 122);
 }
+
 
 .fa-github {
   height: 30px;

@@ -27,6 +27,11 @@
 .router-link-active {
   color: rgb(89, 82, 122);
 }
+
+.router-link-active{
+  cursor: default;
+}
+
 @media screen and (min-width: 768px) {
   .header-item {
     height: 120px;

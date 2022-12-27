@@ -27,6 +27,14 @@ a {
   text-decoration: none;
 }
 
+a:active, a:focus{
+  color: rgb(89, 82, 122) !important;
+}
+
+a:visited{
+  color: inherit;
+}
+
 main {
   padding-top: 80px;
   padding-left: 40px;
