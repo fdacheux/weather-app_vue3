@@ -1,5 +1,9 @@
-.home-container{
-    padding-left: 40px;
-    padding-right: 40px;
+.home-container {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
-
