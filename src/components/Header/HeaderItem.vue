@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 </script>
 <template>
   <header class="header-item">
-    <img :src="logo" alt="heysun logo" class="logo ms-4" />
+    <img :src="logo" alt="heysun logo" class="logo" />
     <nav class="navbar">
       <ul class="navbar-nav">
         <li>

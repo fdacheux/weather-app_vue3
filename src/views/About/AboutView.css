@@ -1,5 +1,12 @@
+.about-container{
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 70px;
+}
+
 @media screen and (max-width: 767px) {
-  main {
+  .about-container {
     padding-left: 0;
     padding-right: 0;
   }

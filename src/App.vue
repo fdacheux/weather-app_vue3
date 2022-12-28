@@ -6,6 +6,8 @@ import FooterItem from "./components/Footer/FooterItem.vue";
 
 <template>
   <HeaderItem />
-  <router-view></router-view>
+  <main>
+    <router-view></router-view>
+  </main>
   <FooterItem />
 </template>

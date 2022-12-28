@@ -1,8 +1,11 @@
 footer {
+  /* position: relative; */
+  /* margin-top: -70px; */
+  position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
   height: 70px;
   width: 100%;
   background-color: rgb(35, 34, 44);
@@ -10,7 +13,7 @@ footer {
   font-size: 16px;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   align-items: center;
 }
@@ -19,10 +22,9 @@ a {
   color: rgb(111, 168, 214) !important;
 }
 
-a:hover{
+a:hover {
   color: rgb(89, 82, 122);
 }
-
 
 .fa-github {
   height: 30px;

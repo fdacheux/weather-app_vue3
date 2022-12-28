@@ -3,10 +3,10 @@ import DescriptionItem from "../../components/ProjectDescription/DescriptionItem
 </script>
 
 <template>
-  <main>
+  <div class="about-container">
     <h1 class="my-5 display-4">A vue 3 project</h1>
     <DescriptionItem />
-  </main>
+  </div>
 </template>
 
 <style scoped src="./AboutView.css"></style>
