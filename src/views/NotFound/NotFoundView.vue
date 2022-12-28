@@ -4,7 +4,7 @@ import pageNotFoundPng from "../../assets/404-not-found.png";
 </script>
 
 <template>
-  <main>
+  <div class="error-page-container">
     <div class="container">
       <h1 class="m-3">The page you asked for does not seem to exist ...</h1>
       <div class="rotating-element">
@@ -15,7 +15,7 @@ import pageNotFoundPng from "../../assets/404-not-found.png";
       </div>
       <router-link to="/" class="mt-5">Bring me back home</router-link>
     </div>
-  </main>
+  </div>
 </template>
 
 <style scoped src="./NotFoundView.css"></style>
